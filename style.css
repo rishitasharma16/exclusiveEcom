@@ -1,0 +1,837 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.sectionCod {
+  width: 100%;
+  height: 35px;
+  background-color: #000;
+}
+.sectionCod p {
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* navbarSection */
+.navbarSection {
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  z-index: 9999;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.logo {
+  width: 10%;
+}
+.menu, .cancel {
+  display: none;
+}
+
+.nav_link {
+  width: 70%;
+}
+.nav_link ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_link ul li {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.icons {
+  width: 20%;
+  display: flex;
+  justify-content: end;
+}
+.icons .bx {
+  width: 50px;
+}
+
+/* sliderSection */
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+.swiper-button-next svg {
+  color: red !important;
+}
+swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.slideFirst {
+  display: flex;
+}
+.slideText {
+  width: 40%;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 70px;
+}
+.slideText h1 {
+  font-size: 4.2vw;
+}
+.slideText p {
+  font-size: 1.3rem;
+  margin: 20px 0;
+  line-height: 30px;
+}
+
+.slideText button {
+  width: 150px;
+  padding: 15px 0px;
+  border: none;
+  background: #000;
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.slideImage {
+  width: 60%;
+}
+.sliderSection {
+  width: 100%;
+  height: 550px;
+  background: pink;
+}
+
+/* handCreaftSection */
+.handCreaftSection {
+  width: 100%;
+  padding: 20px 60px;
+}
+.handCreaftSection h3 {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.grid1 {
+  padding: 0 60px;
+}
+.grid1 h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 40px;
+}
+.item_image {
+  width: 220px;
+  text-align: center;
+}
+.item_image img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.grid2 {
+  padding: 80px 60px;
+}
+
+.cart_section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.card {
+  flex: 0 0 19%;
+  background-color: #f8f8f8;
+  position: relative;
+  
+}
+
+.card_img {
+  width: 100%;
+  position: relative;
+}
+.card_img img {
+  width: 100%;
+}
+.card_img_overlay {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover .card_img_overlay {
+  opacity: 1;
+}
+.card:hover .img_icon {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+.img_icon {
+  position: absolute;
+  top: 0px;
+  right: -8px;
+  opacity: 0;
+  transition: all 0.25 ease-in-out;
+  transform: translateY(5px);
+}
+
+.img_icon button {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #000;
+  border-radius: 50%;
+  margin-bottom: 7px;
+}
+.description {
+  padding: 0px 5px;
+}
+.img_icon button .bx {
+  color: #fff;
+  font-size: 20px;
+}
+
+.description h5 {
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 200 !important;
+}
+.description p {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.description p span {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 5px;
+}
+.description p span::before {
+  content: "";
+  width: 55px;
+  height: 1px;
+  position: absolute;
+  top: 13px;
+  bottom: 0 !important;
+  z-index: 9999;
+  background: #1b1c1c;
+}
+.description p small {
+  color: #b54040;
+  font-weight: 700;
+}
+.description button {
+  width: 100%;
+  border: none;
+  background: #09a8e8;
+  padding: 17px 0;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.description button .bx {
+  font-weight: 700;
+  margin-right: 7px;
+}
+
+.card h6 {
+  position: absolute;
+  top: 0;
+  right: inherit;
+  left: 0;
+  padding: 7px 13px;
+  background-color: #ba4444;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.grid3 {
+  padding-top: 70px;
+}
+
+.youtubeSection {
+  width: 100%;
+  display: flex;
+  padding: 90px 60px 60px 60px;
+  justify-content: space-between;
+}
+
+.yt1,
+.yt2 {
+  width: 49%;
+  height: 100%;
+}
+
+.ytImage img {
+  width: 100%;
+  height: 100%;
+}
+.ytImage {
+  position: relative;
+}
+
+.ytImage a {
+  position: absolute;
+  top: 43%;
+  bottom: 0;
+  right: 47%;
+}
+
+.ytImage a .bx {
+  color: transparent;
+}
+
+.viewall h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.workSection {
+  padding: 60px;
+}
+
+.artisan {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.artisanText,
+.artisanImg2 {
+  padding-left: 30px;
+}
+.artisanText h1,
+.artisanText2 h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.artisanText p,
+.artisanText2 p {
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: justify;
+}
+.artisanImg,
+.artisanText2 {
+  padding-right: 20px;
+}
+
+.wholesaleSection {
+  width: 100%;
+  height: 450px;
+  background: red;
+  margin-bottom: 30px;
+}
+
+.bgImage {
+  background-image: url("./images//ws.webp");
+  width: 100%;
+  height: 100%;
+  background-position: center right;
+  background-size: cover;
+}
+
+.wholesaleText {
+  background: #ffff;
+  width: 380px;
+  position: relative;
+  top: 70px;
+  left: 70px;
+  padding: 30px;
+}
+
+.wholesaleText h4 {
+  font-size: 1.4rem;
+}
+
+.wholesaleText p {
+  margin: 25px 0;
+  font-size: 1.1rem;
+}
+.wholesaleText button {
+  padding: 15px 35px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.catalogueSection {
+  padding: 60px;
+}
+.catalogueText {
+  background: #f4f4f4;
+  padding: 30px;
+}
+.catalogueText p {
+  margin-top: 5px;
+  line-height: 22px;
+}
+
+.catalogueText button {
+  background: transparent;
+  border: none;
+  padding: 15px 0 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.hideDesc {
+  display: none;
+}
+
+.showDesc {
+  display: block;
+}
+
+.hideDesc h1 {
+  margin-top: 20px;
+}
+
+.hideDesc ul {
+  padding: 25px 0px 10px;
+}
+.hideDesc ul li {
+  list-style-type: none;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding-bottom: 40px;
+}
+.hideDesc ul li:last-child {
+  padding-bottom: inherit;
+}
+
+.hideDesc ul li p {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+
+.faqs {
+  padding-top: 10px;
+}
+.faqs p {
+  padding: 10px 0;
+}
+
+.footerSection {
+  border-top: 1px solid #000;
+}
+.footerSubscribe {
+  padding: 50px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.subscribeText h3 {
+  padding: 0 20px;
+}
+.subscribeForm {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.subscribeForm input {
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  border: 1px solid #000;
+}
+.subscribeForm button {
+  background: #000;
+  border: none;
+  color: #ffff;
+  height: 50px;
+  font-size: 1.2rem;
+}
+.subscribeForm button span {
+  padding: 0 15px;
+}
+
+.subscribeForm button span:last-child {
+  display: none;
+}
+
+.footer {
+  background: #f4f4f4;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 0 150px;
+}
+
+.footerLinks {
+  width: 100%;
+  justify-content: space-between;
+  padding: 60px;
+  margin: auto;
+  display: flex;
+}
+
+.footerItems ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerLinks ul li {
+  margin-bottom: 10px;
+}
+.footerItems h4 {
+  margin-bottom: 15px;
+}
+
+.footerItems a {
+  color: #000;
+}
+
+.footerItems a .bx {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.footerItems p {
+  margin: 20px 0;
+}
+.footerBlock1 {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.footerBlock2 {
+  width: 50%;
+}
+.footerItems {
+  padding: 0 40px;
+}
+
+
+
+/* -----------------------------------responsive codes here----------------------------------------- */
+
+@media screen and (max-width: 600px) {
+  .nav_link {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease-in;
+  }
+  .navbarSection {
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+  .menu{
+    display: block;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    margin-right: 15px;
+    position: relative;
+  }
+  /* .navlinkShow{
+    display: block;
+  } */
+
+  .nav_link ul {
+    flex-direction: column;
+    padding: 10px 30px;
+    background: #fff !important;
+  }
+  .nav_link{
+    width: 100%;
+    background: #F8F8F8;
+    position: absolute;
+    /* z-index: 9999; */
+    top: 80px;
+    left: 0;
+  }
+  .nav_link ul li{
+    padding: 10px 0;
+  }
+
+
+  .logo {
+    display: flex;
+  }
+  .logo img {
+    width: 80px;
+  }
+  .icons {
+    width: 40%;
+    justify-content: space-between;
+    text-align: end;
+  }
+  .sliderSection {
+    height: 100%;
+  }
+  .slideFirst {
+    display: flex;
+    flex-direction: column;
+  }
+  .slideText {
+    width: 100%;
+    padding: inherit;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .slideText p {
+    font-size: 0.8rem;
+    margin: 10px 0;
+    line-height: 20px;
+    padding: 0 30px;
+  }
+
+  .slideText button {
+    margin: auto;
+    font-size: 1rem;
+    width: 130px;
+  }
+  .slideImage {
+    width: 100%;
+  }
+
+  .imageOrder {
+    order: 2;
+  }
+
+  .handCreaftSection {
+    padding: 20px 20px;
+  }
+  .handCreaftSection h3 {
+    font-size: 25px;
+  }
+
+  .youtubeSection {
+    padding: 30px 20px;
+    flex-direction: column;
+  }
+  .yt1,
+  .yt2 {
+    width: 100%;
+  }
+  .workSection {
+    padding: 30px 20px !important;
+  }
+  .artisan {
+    flex-direction: column;
+    /* margin-bottom: 40px; */
+  }
+
+  .artisanImg,
+  .artisanText2 {
+    padding-right: 0px;
+  }
+  .artisanText,
+  .artisanImg2 {
+    padding-left: 0px;
+    letter-spacing: inherit;
+  }
+
+  .artisanImg img,
+  .artisanImg2 img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .artisanText2 {
+    order: 2;
+  }
+  .artisanText2 p,
+  .artisanText p {
+    letter-spacing: inherit;
+    font-size: 0.9rem;
+  }
+  .bgImage {
+    background-size: 100% 100%;
+    object-fit: cover;
+    /* background-position:100% 100%; */
+    background-repeat: no-repeat;
+  }
+
+  .catalogueSection {
+    padding: 30px 20px;
+  }
+  .catalogueText {
+    padding: 20px;
+  }
+  .subscribeForm button span:last-child {
+    display: block;
+  }
+  .subscribeForm button span:first-child {
+    display: none;
+  }
+
+  .footerSubscribe {
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .subscribeForm {
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+
+  .subscribeText h3 {
+    font-size: 1rem;
+    line-height: 23px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footerLinks {
+    padding: 0px;
+    flex-direction: column;
+  }
+
+  .footerItems {
+    padding: inherit;
+  }
+
+  .footerBlock1 {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .footerBlock2 {
+    width: 100%;
+  }
+
+  .getTouch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  .footerItems p {
+    margin: 0px 0 10px;
+  }
+  .followLinks {
+    padding-right: 28px;
+  }
+  .footerLinks ul li {
+    font-size: 0.8rem;
+  }
+  .catalogueText p {
+    font-size: 0.9rem;
+  }
+
+  .wholesaleText {
+    left: 0;
+    margin: auto;
+    top: 47%;
+    text-align: center;
+  }
+
+  .wholesaleText h4 {
+    font-size: 1.3rem;
+  }
+  .wholesaleText p {
+    font-size: 1rem;
+  }
+  .wholesaleText button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .grid1 {
+    padding: 0 20px;
+  }
+
+  .grid1 h3 {
+    font-size: 23px;
+  }
+
+  .collection {
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 30px;
+  }
+
+  .collection_item {
+    width: 100px;
+    margin-bottom: 30px;
+  }
+  .item_image {
+    width: 100%;
+  }
+
+  .cart_section{
+    overflow: hidden;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+
+  .card{
+    flex:0 0 45%;
+    margin: 0 10px 10px;
+  
+  }
+  
+  .description button{
+    font-size: 14px;
+    padding: 14px 0;
+  }
+  .description h5{
+    font-size: 13px;
+    line-height:20px;
+  }
+
+  .description p{
+    font-size: 17px;
+  }
+
+  .description p span{
+    display: block;
+    margin: 0;
+  }
+
+  .description p span::before {
+    top: 30px;
+  }
+  .description p  span small{
+    margin-left: 5px;
+    font-size: 15px;
+  }
+
+
+}

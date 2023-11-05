@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <section class="sectionCod">
+      <p>COD + Free Shipping + Free Returns</p>
+    </section>
+
+    <!-- navbar -->
+    <section class="navbarSection">
+      <div class="logo">
+        <!-- <button type="button" class="menu"><i class='bx  bx-menu'></i><span class="cancel">x</span></button> -->
+        <i onclick="handleMenu(this)" class='bx bx-menu menu'></i>
+             
+        <img src="./images/lane.avif" alt="logo" width="45" />
+      </div>
+      <div class="nav_link ">
+        <ul>
+          <li>dining</li>
+          <li>lighting</li>
+          <li>decor</li>
+          <li>garden</li>
+          <li>best-seller</li>
+          <li>collections</li>
+          <li>more</li>
+          <li>deals</li>
+          <li>diwali store</li>
+        </ul>
+      </div>
+      <div class="icons">
+        <i class="bx bx-sm bx-search"></i>
+        <i class="bx bx-sm bx-user"></i>
+        <i class="bx bx-sm bx-cart"></i>
+      </div>
+    </section>
+
+    <!-- sliderSection -->
+    <section class="sliderSection">
+      <swiper-container
+        class="mySwiper"
+        space-between="30"
+        effect="fade"
+        navigation="false"
+        autoplay-delay="2500",
+        pagination="true"
+      >
+        <swiper-slide>
+          <div class="slideFirst">
+            <div class="slideText imageOrder">
+              <h1>Festive Decor</h1>
+              <p>
+                Discover Radiant Table Lamp Designs, A Perfect Blend of Style
+                and Ambiance. Light Up Your World Today!
+              </p>
+              <button>shop now</button>
+            </div>
+            <div class="slideImage"><img src="./images/sl1.jpg" /></div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="slideFirst">
+            <div class="slideImage"><img src="./images/sl2.webp" /></div>
+            <div class="slideText">
+              <h1>Festive Decor</h1>
+              <p>
+                Discover Radiant Table Lamp Designs, A Perfect Blend of Style
+                and Ambiance. Light Up Your World Today!
+              </p>
+              <button>shop now</button>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="slideFirst">
+            <div class="slideText imageOrder">
+              <h1>Festive Decor</h1>
+              <p>
+                Discover Radiant Table Lamp Designs, A Perfect Blend of Style
+                and Ambiance. Light Up Your World Today!
+              </p>
+              <button>shop now</button>
+            </div>
+            <div class="slideImage"><img src="./images/sl3.webp" /></div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slideFirst">
+            <div class="slideImage"><img src="./images/sl5.webp" /></div>
+            <div class="slideText">
+              <h1>Festive Decor</h1>
+              <p>
+                Discover Radiant Table Lamp Designs, A Perfect Blend of Style
+                and Ambiance. Light Up Your World Today!
+              </p>
+              <button>shop now</button>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+    </section>
+
+    <!-- handcraftSection -->
+    <section class="handCreaftSection">
+      <h3>Handcrafted In India</h3>
+    </section>
+
+    <section class="grid1">
+      <h3>The Diwali Store</h3>
+      <div class="collection">
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/ds1.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/ds2.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/ds3.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/ds1.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/ds5.avif" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/ds6.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid1 grid2">
+      <h3>Diwali trending</h3>
+      <div class="cart_section">
+        <div class="card">
+          <div class="card_img">
+            <img
+              src="./images/shubh-labh-pair-hand-etched-wall-decor-hanging-set-in-brass-392-grams_1_900x.webp"
+            />
+            <div class="card_img_overlay">
+              <img src="./images/EL-002-227_B_360x.webp" />
+              <div class="img_icon">
+                <button><i class="bx bx-heart"></i></button>
+                <button><i class="bx bx-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h5>
+              'Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392
+              Grams)
+            </h5>
+            <p>Rs. 1,075 <span>Rs. 1,799<small>(40% off)</small></span></p> 
+            <button><i class="bx bx-plus"></i>Add to cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img src="./images/subh_labh1.webp" />
+            <div class="card_img_overlay">
+              <img src="./images/subh-labh2.webp" />
+              <div class="img_icon">
+                <button><i class="bx bx-heart"></i></button>
+                <button><i class="bx bx-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h5>
+              'Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392
+              Grams)
+            </h5>
+            <p>Rs. 1,075 <span>Rs. 1,799<small>(40% off)</small></span></p> 
+            <button><i class="bx bx-plus"></i>Add to cart</button>
+          </div>
+          <h6>New Arrival</h6>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img
+              src="./images/shubh-labh-pair-hand-etched-wall-decor-hanging-set-in-brass-392-grams_1_900x.webp"
+            />
+            <div class="card_img_overlay">
+              <img src="./images/EL-002-227_B_360x.webp" />
+              <div class="img_icon">
+                <button><i class="bx bx-heart"></i></button>
+                <button><i class="bx bx-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h5>
+              'Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392
+              Grams)
+            </h5>
+            <p>Rs. 1,075 <span>Rs. 1,799<small>(40% off)</small></span></p> 
+            <button><i class="bx bx-plus"></i>Add to cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img src="./images/swan1.webp" />
+            <div class="card_img_overlay">
+              <img src="./images/swan2.webp" />
+              <div class="img_icon">
+                <button><i class="bx bx-heart"></i></button>
+                <button><i class="bx bx-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h5>
+              'Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392
+              Grams)
+            </h5>
+            <p>Rs. 1,075 <span>Rs. 1,799<small>(40% off)</small></span></p> 
+            <button><i class="bx bx-plus"></i>Add to cart</button>
+          </div>
+          <h6>New Arrival</h6>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img src="./images/bell.webp" />
+            <div class="card_img_overlay">
+              <img src="./images/bell2.webp" />
+              <div class="img_icon">
+                <button><i class="bx bx-heart"></i></button>
+                <button><i class="bx bx-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h5>
+              'Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392
+              Grams)
+            </h5>
+            <p>Rs. 1,075 <span>Rs. 1,799<small>(40% off)</small></span></p> 
+            <button><i class="bx bx-plus"></i>Add to cart</button>
+          </div>
+          <h6>New Arrival</h6>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid1">
+      <h3>Shop By Category</h3>
+      <div class="collection">
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/mug.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/bank.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/bottle.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/wallhanging.avif" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/curios.avif" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/box.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid1 grid2">
+      <h3>Trending Now</h3>
+      <div class="cart_section">
+        <div class="card">
+          <div class="card_img">
+            <img src="./images/tn1.webp" />
+            <div class="card_img_overlay">
+              <img src="./images/tn2bottle.webp" />
+              <div class="img_icon">
+                <button><i class="bx bx-heart"></i></button>
+                <button><i class="bx bx-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h5>
+              'Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392
+              Grams)
+            </h5>
+            <p>Rs. 1,075 <span>Rs. 1,799</span><small>(40% off)</small></p>
+            <button><i class="bx bx-plus"></i>Add to cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img src="./images/tn1wall.webp" />
+            <div class="card_img_overlay">
+              <img src="./images/tn2wall.webp" />
+              <div class="img_icon">
+                <button><i class="bx bx-heart"></i></button>
+                <button><i class="bx bx-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h5>
+              'Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392
+              Grams)
+            </h5>
+            <p>Rs. 1,075 <span>Rs. 1,799</span><small>(40% off)</small></p>
+            <button><i class="bx bx-plus"></i>Add to cart</button>
+          </div>
+          <h6>New Arrival</h6>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img src="./images/tn1fish.webp" />
+            <div class="card_img_overlay">
+              <img src="./images/tn2fish.webp" />
+              <div class="img_icon">
+                <button><i class="bx bx-heart"></i></button>
+                <button><i class="bx bx-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h5>
+              'Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392
+              Grams)
+            </h5>
+            <p>Rs. 1,075 <span>Rs. 1,799</span><small>(40% off)</small></p>
+            <button><i class="bx bx-plus"></i>Add to cart</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img src="./images/tn1spice.webp" />
+            <div class="card_img_overlay">
+              <img src="./images/tn2spice.webp" />
+              <div class="img_icon">
+                <button><i class="bx bx-heart"></i></button>
+                <button><i class="bx bx-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h5>
+              'Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392
+              Grams)
+            </h5>
+            <p>Rs. 1,075 <span>Rs. 1,799</span><small>(40% off)</small></p>
+            <button><i class="bx bx-plus"></i>Add to cart</button>
+          </div>
+          <h6>New Arrival</h6>
+        </div>
+        <div class="card">
+          <div class="card_img">
+            <img src="./images/tn1box.webp" />
+            <div class="card_img_overlay">
+              <img src="./images/tn2box.webp" />
+              <div class="img_icon">
+                <button><i class="bx bx-heart"></i></button>
+                <button><i class="bx bx-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h5>
+              'Shubh Labh Pair' Hand-Etched Wall Décor Hanging Set In Brass (392
+              Grams)
+            </h5>
+            <p>Rs. 1,075 <span>Rs. 1,799</span><small>(40% off)</small></p>
+            <button><i class="bx bx-plus"></i>Add to cart</button>
+          </div>
+          <h6>New Arrival</h6>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid1">
+      <h3>New Collections</h3>
+      <div class="collection">
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/nc1.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/nc3.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/nc4.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/nc5.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/nc6.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/tc2.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid1 grid3">
+      <h3>Shop By Material</h3>
+      <div class="collection">
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/sm1.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/sm2.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/sm3.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/wallhanging.avif" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/curios.avif" />
+            <span>diwali store</span>
+          </div>
+        </div>
+        <div class="collection_item">
+          <div class="item_image">
+            <img src="./images/box.webp" />
+            <span>diwali store</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="youtubeSection">
+      <div class="yt1">
+        <div class="ytImage">
+          <img src="./images/yt1.webp" />
+        </div>
+      </div>
+      <div class="yt2">
+        <div class="ytImage">
+          <img src="./images/yt2.webp" />
+          <a href="#"><i class="bx bx-lg bxl-youtube"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="viewall">
+      <h3>View All</h3>
+    </section>
+
+    <section class="workSection">
+      <div class="artisan">
+        <div class="artisanImg">
+          <img src="./images/Artisan.webp" alt="artisan" />
+        </div>
+        <div class="artisanText">
+          <h1>Our Mission</h1>
+          <p>
+            Our mission is to curate beautifully handcrafted products from
+            across the globe. We preserve the traditional art of India handed
+            down to us by our ancestors, helping our talented artisans gain
+            global recognition through the products that can be used on a daily
+            basis in the urban market. Our vision is to be an International
+            Brand synonym to craft. We are well on our way with a solemn goal to
+            provide economic upliftment of the rural artisans that are involved
+            in preserving the heritage of the handicrafts industry in India.
+          </p>
+        </div>
+      </div>
+      <div class="artisan">
+        <div class="artisanText2">
+          <h1>Made In India</h1>
+          <p>
+            ExclusiveLane is an online craft brand started in 2012 with a vision
+            to promote Indian handicrafts globally & help small artisans based
+            in different parts of India earn a living out of it.
+          </p>
+        </div>
+        <div class="artisanImg2">
+          <img src="./images/Artisan2.webp" alt="artisan" />
+        </div>
+      </div>
+    </section>
+
+    <section class="wholesaleSection">
+      <div class="bgImage">
+        <div class="wholesaleText">
+          <h4>Become a Retailer or a Wholesale buyer</h4>
+          <p>Get attractive prices on Bulk Orders</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalogueSection">
+      <div class="catalogueText">
+        <h1>ExclusiveLane: The Indian Handicraft Catalogue</h1>
+        <p>
+          ExclusiveLane is inspired by a generation that is highly connected
+          with its roots. Hence, we have crafted this platform that connects you
+          to the artisans of India and showcases their work by providing you
+          with the best handicraft items online. We aim to make the experience
+          of buying aesthetic and contemporary products online delightful for
+          customers. Also, the core motive is to make sure the handicraft
+          industry in India gets a digital boost. We are here to make purchasing
+          products online convenient for your lifestyle, making life simpler &
+          safer for you.
+        </p>
+
+        <div class="hideDesc">
+          <h1>Buy Handmade Luxury Home Decor Products Online</h1>
+          <p>
+            Home decor items are not the easiest thing to find as of now. At
+            first, we have to figure out what goes well with our house design,
+            and then we have to review 100's products that may or may not be
+            what we're looking for. ExclusiveLane provides a wide home & decor
+            products range designed to suit all your home interiors. Also, what
+            better way can be to decorate your home than with some traditional
+            handmade pieces that draw inspiration from the oldest civilisations
+            in the world? So, in a similar context, you’ll find one-of-a-kind
+            wall décor and room decor items — including motifs, patterns, and
+            designs — right here. In totality, our unique luxury home décor
+            items, wall decoration items and room decoration items online are a
+            great way to help others feel at home or, on the contrary, to create
+            an excellent modern home decor that you want to come home to.
+          </p>
+          <p>
+            So, give your house a vibrant look with the help of ExclusiveLane’s
+            home decoration items such as wall decor, desk accessories,
+            showpieces & idols, decorative vases and bathing items and make your
+            intelligent choices from these wide ranges of home decor products
+            available at our online store. After all, a harmonious blend of
+            functionality and elegance makes these wholesale home decor items an
+            excellent addition to your home decor.
+          </p>
+
+          <h1>Purchase homeware products online based on categories:</h1>
+          <p>
+            Homeware decoration items are endless when you decide to buy online.
+            ExclusiveLane is here to help you decorate your home with our
+            designer collection. We aim to inspire an online shopping experience
+            and bring you designer homewares online with one click. So, we have
+            all your aesthetic needs covered under one roof. So, now you can
+            create your perfect home space in no time with online shopping of
+            homeware products based on categories.
+          </p>
+
+          <ul>
+            <li>
+              1. Kitchenware online
+              <p>
+                This exotic and classic kitchenware collection is unique and
+                bound to leave you spellbound. Beautiful, durable and functional
+                - that's what makes the range of kitchen storage containers from
+                ExclusiveLane so popular. With a vast choice of designs and
+                styles in spice boxes, Jars & Containers, and bottles, you're
+                bound to find something to suit your taste.
+              </p>
+            </li>
+            <li>
+              2. Tableware online
+              <p>
+                If you love to add a traditional yet trendy touch to your dining
+                table, then our Tableware collection is designed just for you.
+                At ExclusiveLane, we offer a range of tableware and dining
+                accessories sourced from various regions of India. So, discover
+                attractive designs in cutlery holders, napkin holders, coasters
+                and salt & pepper shakers to add some aesthetics to your table.
+              </p>
+            </li>
+            <li>
+              3. Serveware online
+              <p>
+                Speak volumes about your taste in serveware with the latest
+                handmade ceramic and wooden items from ExclusiveLane. Explore a
+                wide range of serveware to enhance your dining experiences, such
+                as plates & platters, dinner sets, trays, bowls, kadhai & handi
+                or chapati boxes. Grab your favourites now!
+              </p>
+            </li>
+            <li>
+              4. Furniture online
+              <p>
+                If you're tired of the same old furniture in your living room
+                and home, discover the ExclusiveLane furniture collection -
+                intricately designed to add elegance and functionality to your
+                interior decor. Explore our wide range of wooden furniture in
+                storage, console sets, bookshelf, tables, and more categories
+                available for you.
+              </p>
+            </li>
+            <li>
+              5. Lighting online
+              <p>
+                A light or lamp can instantly uplift the ambience of your home
+                or office space. At ExclusiveLane, we make it easy for you to
+                bring in a touch of elegance and style with our designer lights
+                and lamps. Find a variety of table lamps, pendant lamps, tea
+                light diffusers crafted from high-quality material by artisans
+                from all over India. With our versatile collection, you can
+                easily find one that suits your need and home decor.
+              </p>
+            </li>
+          </ul>
+          <h1>Home Decor Based On Best Art Forms Of India</h1>
+          <p>
+            It is tedious to visit the market or shop select and buy what you
+            need for your home as home decor items. You have to visit different
+            shops and sellers, compare prices and think about the quality and
+            durability of the product. Wouldn’t it be nice if you get everything
+            from a single place? Yes, ExclusiveLane is one of the leading online
+            shopping portals offering a wide range of products for modern decor
+            with ease. You can even purchase ExcluiveLane room decoration items
+            by browsing the art form on the online platform. ExcluiveLane
+            provides you with a wide variety of home decor, living room decor,
+            kitchen decor, room decoration items and other handicraft items. It
+            is one of the leading handcrafted wholesale home decor manufacturing
+            platforms that include painting and furnishings in different art
+            forms like Warli, Madhubani, Dhokra, Block Printing, Studio Pottery
+            and Hand painting.
+          </p>
+
+          <div class="faqs">
+            <p>FAQs</p>
+            <p>Q1. How many handicrafts are there in India?</p>
+            <p>
+              India is known for its variety of handicrafts. Five basic
+              categories are textile, decorative, paper, functional, and fashion
+              crafts.
+            </p>
+            <p>Q2.What are some traditional arts and crafts of India?</p>
+            <p>Some traditional arts and crafts of India are:</p>
+            <p>Q3. Which handicraft is famous in India?</p>
+            <p>Bamboo handicraft is the most popular one in India.</p>
+            <p>Q4.What are the best handicrafts available online?</p>
+            <p>
+              A perfect and exclusive collection of home decor, kitchenware,
+              tableware, garden decor and other handicrafts are available at
+              ExcluiveLane.
+            </p>
+          </div>
+        </div>
+
+        <button class="hideContent">... Read more</button>
+      </div>
+    </section>
+
+    <section class="footerSection">
+
+      <div class="footerSubscribe">
+        <div class="subscribeText">
+          <h3>  Subscribe to get special offers, free giveaways, and
+            once-in-a-lifetime deals.</h3>
+        </div>
+        <div class="subscribeForm">
+          <input type="text" placeholder="Enter your email" />
+          <button type="button"> 
+            <span>Subscribe</span>
+            <span><i class='bx bx-right-arrow-alt'></i></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footerLinks">
+          <div class="footerBlock1">
+            <div class="footerItems">
+              <h4>About Company</h4>
+              <ul>
+                <li>About Us</li>
+                <li>Reviews</li>
+                <li>Blogs</li>
+                <li>Coupuns</li>
+                <li>FAQs</li>
+              </ul>
+            </div>
+            <div class="footerItems">
+              <h4>Customer Service</h4>
+              <ul>
+                <li>Track Order</li>
+                <li>Privacy Policy</li>
+                <li>Shipping & Returns</li>
+                <li>Bulk Orders</li>
+                <li>Terms & Conditions</li>
+              </ul>
+            </div>
+          </div>
+         <div class="footerBlock2">
+          <div class="footerItems getTouch">
+           <div>
+            <h4>Get in touch</h4>
+            <a href="#"><i class="bx bx-sm bx-phone"></i>8882872008</a>
+           </div>
+           <div class="followLinks">
+            <p>Follow Us</p>
+            <i class="bx bxl-instagram bx-sm"></i>
+            <i class="bx bxl-facebook-circle bx-sm"></i>
+            <i class="bx bxl-twitter bx-sm"></i>
+            <i class="bx bxl-pinterest bx-sm"></i>
+           </div>
+           
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
